@@ -1,0 +1,18 @@
+    <?xml version="1.0" encoding="UTF-8"?>
+    <plist version="1.0">
+       <dict>
+          <key>Label</key>
+          <string>user.launchkeep.chrome</string>
+          <key>KeepAlive</key>
+<true/>
+<key>Program</key>
+<string>/Applications/Google Chrome.app/Contents/MacOS/Google Chrome</string>
+<key>ProgramArguments</key>      
+<array>
+<string>/Applications/Google Chrome.app/Contents/MacOS/Google Chrome</string>
+<string>--kiosk</string>
+<string>--app=http://baseben9.github.io/page</string>
+</array> 
+</dict>
+    </plist>
+    
